@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+// Grid                                         (Module) //
+///////////////////////////////////////////////////////////
+
+.grid{
+  &.at-left{
+    display: block;
+    background-color: #eee;
+    width: 200px;
+    height: 200px;
+  }
+  &.at-right{
+    background-color: $rose;
+    display: block;
+    width: 200px;
+    height: 200px;
+  }
+}
